@@ -290,7 +290,7 @@ def start_discord_bot():
 
         voice_client.play(discord.FFmpegPCMAudio('modified_audio.mp3'), after=None)
 
-    client.run('MTEzNjE5MTg2Nzc0MzExMzI2OA.GxZcv3.OkpzvOTPBJd_wvU6je8xl9PYvuZDN47c-DIhG8')
+    client.run('token')
 
 app = QApplication(sys.argv)
 window = Login_Window()
